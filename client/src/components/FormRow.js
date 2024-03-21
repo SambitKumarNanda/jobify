@@ -11,6 +11,7 @@ function FormRow({ type, name, value, handleChange, labelText }) {
         value={value}
         onChange={handleChange}
         className="form-input"
+        name={name}
       />
     </div>
   );
