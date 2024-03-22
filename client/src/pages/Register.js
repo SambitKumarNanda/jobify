@@ -32,6 +32,10 @@ function Register() {
     if (!email || !password || (!isMember && !name)) {
       displayAlert();
       return;
+      console.log(email);
+      console.log(password);
+      console.log(email);
+      console.log(email);
     }
 
     const currentUser = { name, email, password };
